@@ -1,7 +1,6 @@
 {
   "name": "react-base",
   "private": true,
-  "homepage": "https://tawseef-rahman.github.io/tr-website/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
