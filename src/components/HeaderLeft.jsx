@@ -90,6 +90,81 @@ const HeaderLeft = ({ darkMode, toggleDarkMode }) => {
             </li>
           </ul>
         </div>
+
+        <div className="flex flex-col items-start justify-start gap-5 border-b p-5 dark:border-gray-700">
+          <h1 className="text-base font-semibold md:text-2xl">SKILLS</h1>
+
+          <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3">
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                HTML
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                CSS
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                JavaScript
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                React
+              </span>
+            </div>
+
+            <div className="flex flex-wrap gap-3">
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Python
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                C
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                C++
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Java
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                R
+              </span>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Node.js
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Next.js
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                MongoDB
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                SQL
+              </span>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Express.js
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Tailwind
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Vite
+              </span>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Git
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Docker
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Postman
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
