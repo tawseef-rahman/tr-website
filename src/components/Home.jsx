@@ -104,7 +104,7 @@ const Home = () => {
                   <span className="text-lg font-semibold">RecipeBox</span>
                 </a>
                 <span className="font-light">
-                  A user can create their personalized account and add/modify
+                  A user can create a personalized account and add/modify
                   recipes to their account.
                 </span>
                 <span className="text-sm text-gray-400">
