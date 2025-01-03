@@ -97,15 +97,15 @@ const Home = () => {
 
               <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:transform before:rounded-full before:bg-black before:content-[''] dark:before:bg-white">
                 <a
-                  href="https://github.com/tawseef-rahman/expense-tracker"
+                  href="https://github.com/tawseef-rahman/recipe-box"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="text-lg font-semibold">ExpenseTracker</span>
+                  <span className="text-lg font-semibold">RecipeBox</span>
                 </a>
                 <span className="font-light">
-                  A user can track their personal expenses and see useful
-                  statistics and visualizations about their expenses.
+                  A user can create their personalized account and add/modify
+                  recipes to their account.
                 </span>
                 <span className="text-sm text-gray-400">
                   MongoDB, Express.js, React, and Node.js
@@ -125,7 +125,7 @@ const Home = () => {
                 <span className="font-light">
                   A user can test their knowledge on a chemistry topic of their
                   choosing: 1. Periodic Table of Elements, 2. Polyatomic Ions,
-                  3. Amino Acids, 4. VSEPR Theory
+                  3. Amino Acids, 4. VSEPR Theory.
                 </span>
                 <span className="text-sm text-gray-400">C++</span>
               </li>
@@ -150,7 +150,7 @@ const Home = () => {
         </div>
 
         <div className="mt-10 text-left text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700 pt-4">
-          <p>Last Updated: January 1, 2025</p>
+          <p>Last Updated: January 2, 2025</p>
         </div>
       </main>
     </div>

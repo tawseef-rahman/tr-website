@@ -81,8 +81,13 @@ const HeaderLeft = ({ darkMode, toggleDarkMode }) => {
             <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:transform before:rounded-full before:bg-black before:content-[''] dark:before:bg-white">
               <span className="font-semibold md:text-lg">Computer Science</span>
               <span className="font-light">
-                University of Michigan - College of Engineering <br /> Ann
-                Arbor, Michigan
+                University of Michigan <br /> Ann Arbor, Michigan
+              </span>
+              <span className="font-light">
+                Relevant Coursework: <br /> - Data Structures and Algorithms
+                <br /> - Intro to Computer Architecture
+                <br /> - Web Systems
+                <br /> - Practical Data Science
               </span>
               <span className="text-sm text-gray-400">
                 Expected Graduation: May 2026
@@ -105,14 +110,23 @@ const HeaderLeft = ({ darkMode, toggleDarkMode }) => {
               <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
                 JavaScript
               </span>
-              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
-                React
-              </span>
             </div>
 
             <div className="flex flex-wrap gap-3">
               <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                TypeScript
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                React
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Swift
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
                 Python
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                MATLAB
               </span>
               <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
                 C
@@ -150,6 +164,17 @@ const HeaderLeft = ({ darkMode, toggleDarkMode }) => {
               </span>
               <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
                 Vite
+              </span>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Pandas
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Numpy
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                scikit-learn
               </span>
             </div>
             <div className="flex flex-wrap gap-3">
