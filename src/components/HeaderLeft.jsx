@@ -85,7 +85,7 @@ const HeaderLeft = ({ darkMode, toggleDarkMode }) => {
               </span>
               <span className="font-light">
                 Relevant Coursework: <br /> - Data Structures and Algorithms
-                <br /> - Intro to Computer Architecture
+                <br /> - Introduction to Computer Architecture
                 <br /> - Web Systems
                 <br /> - Practical Data Science
               </span>
