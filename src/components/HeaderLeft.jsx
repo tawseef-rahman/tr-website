@@ -165,6 +165,9 @@ const HeaderLeft = ({ darkMode, toggleDarkMode }) => {
               <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
                 Vite
               </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Flask
+              </span>
             </div>
             <div className="flex flex-wrap gap-3">
               <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
