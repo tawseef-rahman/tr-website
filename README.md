@@ -13,3 +13,5 @@ The website contains the following information:
 - Description about me
 - Experience
 - Projects
+
+To access my website, navigate to the following link: https://www.tawseefrahman.com
