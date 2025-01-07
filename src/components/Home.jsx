@@ -88,7 +88,7 @@ const Home = () => {
                   <span className="text-lg font-semibold">ColorFinder</span>
                 </a>
                 <span className="font-light">
-                  A user can upload a photo, and the application generate a
+                  A user can upload a photo, and the application generates a
                   color palette of HEX codes, based off the colors from the
                   image.
                 </span>
@@ -149,8 +149,109 @@ const Home = () => {
           </div>
         </div>
 
+        <div className="flex flex-col items-start justify-start gap-5 border-b p-5 dark:border-gray-700">
+          <h1 className="text-base font-semibold md:text-2xl">SKILLS</h1>
+
+          <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3">
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                HTML
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                CSS
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                JavaScript
+              </span>
+            </div>
+
+            <div className="flex flex-wrap gap-3">
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                C
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                C++
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Java
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Python
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                R
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                MATLAB
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                TypeScript
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Swift
+              </span>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                React
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Node.js
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Next.js
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                MongoDB
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                SQL
+              </span>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Express.js
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Tailwind
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Vite
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Flask
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                AWS
+              </span>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Pandas
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Numpy
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                scikit-learn
+              </span>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Git
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Docker
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Postman
+              </span>
+            </div>
+          </div>
+        </div>
+
         <div className="mt-10 text-left text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700 pt-4">
-          <p>Last Updated: January 2, 2025</p>
+          <p>Last Updated: January 6, 2025</p>
         </div>
       </main>
     </div>
