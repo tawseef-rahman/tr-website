@@ -251,7 +251,7 @@ const Home = () => {
         </div>
 
         <div className="mt-10 text-left text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700 pt-4">
-          <p>Last Updated: January 6, 2025</p>
+          <p>Last Updated: January 7, 2025</p>
         </div>
       </main>
     </div>
