@@ -187,13 +187,13 @@ const Home = () => {
               <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
                 TypeScript
               </span>
-              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
-                Swift
-              </span>
             </div>
             <div className="flex flex-wrap gap-3">
               <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
                 React
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                React Native
               </span>
               <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
                 Node.js
@@ -251,7 +251,7 @@ const Home = () => {
         </div>
 
         <div className="mt-10 text-left text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700 pt-4">
-          <p>Last Updated: January 14, 2025</p>
+          <p>Last Updated: February 1, 2025</p>
         </div>
       </main>
     </div>
