@@ -36,18 +36,6 @@ const Home = () => {
 
               <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:transform before:rounded-full before:bg-black before:content-[''] dark:before:bg-white">
                 <span className="text-lg font-semibold">
-                  Mobile Application Developer
-                </span>
-                <span className="font-light">
-                  Roots <br /> Remote
-                </span>
-                <span className="text-sm text-gray-400">
-                  September 2024 - December 2024
-                </span>
-              </li>
-
-              <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:transform before:rounded-full before:bg-black before:content-[''] dark:before:bg-white">
-                <span className="text-lg font-semibold">
                   Data Analyst Intern
                 </span>
                 <span className="font-light">
