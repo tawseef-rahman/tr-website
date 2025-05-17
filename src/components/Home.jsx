@@ -24,7 +24,7 @@ const Home = () => {
             <ul>
               <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:transform before:rounded-full before:bg-black before:content-[''] dark:before:bg-white">
                 <span className="text-lg font-semibold">
-                  Incoming Software Engineer Intern
+                  Software Engineer Intern
                 </span>
                 <span className="font-light">
                   BorgWarner <br /> Auburn Hills, Michigan
@@ -257,7 +257,7 @@ const Home = () => {
         </div>
 
         <div className="mt-10 text-left text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700 pt-4">
-          <p>Last Updated: March 28, 2025</p>
+          <p>Last Updated: May 17, 2025</p>
         </div>
       </main>
     </div>
