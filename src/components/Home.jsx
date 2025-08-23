@@ -7,7 +7,7 @@ const Home = () => {
         <div className="space-y-5">
           <h1 className="text-2xl font-bold md:text-4xl">About</h1>
           <p className="text-sm text-gray-600 dark:text-gray-400 md:text-base">
-            I'm Tawseef Rahman, and I'm a junior at the University of Michigan,
+            I'm Tawseef Rahman, and I'm a senior at the University of Michigan,
             College of Engineering, majoring in Computer Science. <br />
             I love technology, and I am amazed at how technology can be used to
             change the world. I love building products that deliver an impact to
@@ -257,7 +257,7 @@ const Home = () => {
         </div>
 
         <div className="mt-10 text-left text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700 pt-4">
-          <p>Last Updated: May 17, 2025</p>
+          <p>Last Updated: August 22, 2025</p>
         </div>
       </main>
     </div>
