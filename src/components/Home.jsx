@@ -205,7 +205,16 @@ const Home = () => {
                 MongoDB
               </span>
               <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                DynamoDB
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
                 SQL
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                MySQL
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                PostgreSQL
               </span>
             </div>
             <div className="flex flex-wrap gap-3">
@@ -247,7 +256,13 @@ const Home = () => {
                 Git
               </span>
               <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Azure DevOps
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
                 Docker
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Firebase
               </span>
               <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
                 Postman
@@ -257,7 +272,7 @@ const Home = () => {
         </div>
 
         <div className="mt-10 text-left text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700 pt-4">
-          <p>Last Updated: August 22, 2025</p>
+          <p>Last Updated: September 07, 2025</p>
         </div>
       </main>
     </div>
