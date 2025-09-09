@@ -81,18 +81,21 @@ const Home = () => {
             <ul>
               <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:transform before:rounded-full before:bg-black before:content-[''] dark:before:bg-white">
                 <a
-                  href="https://github.com/tawseef-rahman/color-finder"
+                  href="https://github.com/sbbollu/Umich-One-Stop-Shop"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <span className="text-lg font-semibold">ColorFinder</span>
+                  <span className="text-lg font-semibold">
+                    UMich One-Stop Shop
+                  </span>
                 </a>
                 <span className="font-light">
-                  A user can upload a photo, and the application generates a
-                  color palette of HEX codes, based off the colors from the
-                  image.
+                  A user can access a centralized student platform for
+                  restaurant, study spot, and store recommendations.
                 </span>
-                <span className="text-sm text-gray-400">React and Next.js</span>
+                <span className="text-sm text-gray-400">
+                  React, Python, and FastAPI
+                </span>
               </li>
 
               <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:transform before:rounded-full before:bg-black before:content-[''] dark:before:bg-white">
@@ -111,25 +114,6 @@ const Home = () => {
                   MongoDB, Express.js, React, and Node.js
                 </span>
               </li>
-            </ul>
-
-            <ul>
-              <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:transform before:rounded-full before:bg-black before:content-[''] dark:before:bg-white">
-                <a
-                  href="https://github.com/tawseef-rahman/chem-quest"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span className="text-lg font-semibold">ChemQuest</span>
-                </a>
-                <span className="font-light">
-                  A user can test their knowledge on a chemistry topic of their
-                  choosing: 1. Periodic Table of Elements, 2. Polyatomic Ions,
-                  3. Amino Acids, 4. VSEPR Theory.
-                </span>
-                <span className="text-sm text-gray-400">C++</span>
-              </li>
-
               <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/2 before:h-3 before:w-3 before:-translate-y-1/2 before:transform before:rounded-full before:bg-black before:content-[''] dark:before:bg-white">
                 <a
                   href="https://github.com/tawseef-rahman/tr-website"
@@ -233,6 +217,9 @@ const Home = () => {
               <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
                 AWS CloudFront
               </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                AWS EC2
+              </span>
             </div>
             <div className="flex flex-wrap gap-3">
               <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
@@ -267,12 +254,18 @@ const Home = () => {
               <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
                 Postman
               </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                RestAPI
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                FastAPI
+              </span>
             </div>
           </div>
         </div>
 
         <div className="mt-10 text-left text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700 pt-4">
-          <p>Last Updated: September 07, 2025</p>
+          <p>Last Updated: September 08, 2025</p>
         </div>
       </main>
     </div>
