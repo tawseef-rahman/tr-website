@@ -232,6 +232,9 @@ const Home = () => {
                 scikit-learn
               </span>
               <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
+                Seaborn
+              </span>
+              <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
                 PyTorch
               </span>
               <span className="rounded-xl bg-black p-3 text-center text-white dark:bg-white dark:text-black">
@@ -265,7 +268,7 @@ const Home = () => {
         </div>
 
         <div className="mt-10 text-left text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700 pt-4">
-          <p>Last Updated: September 08, 2025</p>
+          <p>Last Updated: September 09, 2025</p>
         </div>
       </main>
     </div>
