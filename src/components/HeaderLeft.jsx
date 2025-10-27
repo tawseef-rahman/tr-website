@@ -92,7 +92,6 @@ const HeaderLeft = ({ darkMode, toggleDarkMode }) => {
                 <br /> - Practical Data Science
                 <br /> - Computer Science Theory
                 <br /> - Software Engineering
-                <br /> - Computer Networks
                 <br /> - Computational Linear Algebra
               </span>
               <span className="text-sm text-gray-400">
