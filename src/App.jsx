@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Home from "./components/Home";
 import HeaderLeft from "./components/HeaderLeft";
 
@@ -7,8 +7,20 @@ function App() {
 
   const toggleDarkMode = () => {
     setDarkMode((prevMode) => !prevMode);
-    document.documentElement.classList.toggle("dark", !darkMode);
   };
+
+  useEffect(() => {
+    document.documentElement.classList.toggle("dark", darkMode);
+  }, [darkMode]);
+
+  useEffect(() => {
+    const favicon = document.getElementById("favicon");
+    if (favicon) {
+      favicon.href = darkMode
+        ? "/tawseef-rahman_logo_initials_white-on-black.png"
+        : "/tawseef-rahman_logo_initials_black-on-white.png";
+    }
+  }, [darkMode]);
 
   return (
     <>

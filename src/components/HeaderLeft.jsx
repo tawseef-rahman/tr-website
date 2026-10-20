@@ -11,15 +11,14 @@ import {
 const HeaderLeft = ({ darkMode, toggleDarkMode }) => {
   return (
     <div className="relative min-h-screen flex-1 p-10 transition-all duration-500 dark:border-gray-700 dark:bg-black dark:text-white sm:border-r">
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col">
         <div className="flex flex-col items-center justify-center gap-5">
           <img src={image} alt="" className="w-32 rectangle-full" />
 
           <div className="space-y-1 text-center">
             <h1 className="text-4xl font-light">
-              Tawseef <span className="font-semibold">Rahman</span>
+              <span className="font-semibold">Tawseef Rahman</span>
             </h1>
-            <h3 className="text-xl font-light">Developer and Thinker</h3>
           </div>
 
           <button className="absolute right-10 top-10" onClick={toggleDarkMode}>
@@ -83,19 +82,12 @@ const HeaderLeft = ({ darkMode, toggleDarkMode }) => {
                 Bachelor of Science in Engineering <br /> Computer Science
               </span>
               <span className="font-light">
-                University of Michigan <br /> Ann Arbor, Michigan
-              </span>
-              <span className="font-light">
-                Relevant Coursework: <br /> - Data Structures and Algorithms
-                <br /> - Introduction to Computer Architecture
-                <br /> - Web Systems
-                <br /> - Practical Data Science
-                <br /> - Computer Science Theory
-                <br /> - Software Engineering
-                <br /> - Computational Linear Algebra
+                University of Michigan <br />
+                College of Engineering <br />
+                Ann Arbor, Michigan
               </span>
               <span className="text-sm text-gray-400">
-                Expected Graduation: May 2026
+                Graduation: August 2026
               </span>
             </li>
           </ul>
